@@ -1,0 +1,2142 @@
+@charset "utf-8";
+
+/* ========================== */
+
+.reset-box-sizing,
+
+.reset-box-sizing *,
+
+.reset-box-sizing *:before,
+
+.reset-box-sizing *:after {
+
+  -webkit-box-sizing: content-box;
+
+     -moz-box-sizing: content-box;
+
+          box-sizing: content-box;
+
+}
+
+
+
+body{
+
+	margin: 0;
+
+	padding:0;
+
+	border: 0;
+
+	height: 100%;
+
+	text-align: left;
+
+	font-family: "Microsoft JhengHei" !important;
+
+	background-image: url('../images/bg_top.jpg') !important;
+
+	background-position: center top !important;
+
+	background-repeat: repeat-x !important;
+
+	background-color: #e5e8d9;
+
+}
+
+
+
+#contain{
+
+	position: relative;
+
+	height: 100%;
+
+	padding: 10px;
+
+	border: 0;
+
+	margin-top: 10px;
+
+	margin-right: auto;
+
+	margin-bottom: 0px !important;
+
+	margin-left: auto;
+
+	background-color:transparent !important;
+
+	font-family: "微軟正黑體" !important;
+
+
+
+}
+
+#nav{ text-align:right; font-family: "Microsoft JhengHei" !important;}
+
+#content {
+
+	position: relative;
+
+	margin-top: 0px;
+
+	margin-right: auto;
+
+	margin-bottom: 10px;
+
+	margin-left: auto;
+
+	padding-top: 10px;
+
+	padding-bottom: 10px;
+
+	min-height:500px;
+
+}
+
+
+
+#bottom {position: relative;margin:0px auto}
+
+
+
+#top {
+
+	position: relative;
+
+	margin: 0px auto;
+
+	z-index: 99;
+
+
+
+}
+
+
+
+#bodyex {position: absolute;left:0;top:0px;margin:0}
+
+
+
+/*===脣璃煦燭脯===*/
+
+
+
+.pdv_class{position:absolute;border:0px}
+
+
+
+
+
+/* ==都蚚== */
+
+a:link,a:visited,a:active{text-decoration: none;}
+
+
+
+/* ============桶等============== */
+
+
+
+form{margin:0;padding:0}
+
+
+
+.input{border:1px #ddd solid;height:20px;line-height:20px;padding:0px 3px;color:#555;background:#f7f7f7}
+
+
+
+.textarea{border:1px #ddd solid;font-size:12px;padding:3px;background:#f7f7f7}
+
+
+
+.button{border:1px #c0c0c0 solid;height:22px;line-height:20px;padding:0px 3px;background:#e8e8e8;}
+
+
+
+.submit{border:1px #c0c0c0 solid;height:22px;line-height:20px;padding:0px 3px;background:#e8e8e8;}
+
+
+
+.mustfill{color:#ff0000}
+
+
+
+select{font:12px Verdana, Arial, Helvetica, sans-serif;color:#505050;}
+
+
+
+/* ============全域搜尋============== */
+
+div.globalsearchformzone{
+
+	height: 35px;
+
+	/*background-image: url(../images/search.gif);*/
+
+	background-repeat: no-repeat;
+
+	background-position: left top;
+
+}
+
+div.globalsearchformzone div.globalsearchform{
+
+  float:left;
+
+}
+
+div.globalsearchformzone div.globalsearchform .input{
+
+	width: 235px;
+
+	height: 25px;
+
+	line-height: 18px;
+
+	background: #fbfbfb;
+
+	border-top-style: solid;
+
+	border-right-style: none;
+
+	border-bottom-style: solid;
+
+	border-left-style: solid;
+
+	border-top-width: thin;
+
+	border-bottom-width: thin;
+
+	border-top-color: #CCC;
+
+	border-bottom-color: #CCC;
+
+	border-left-width: thin;
+
+	border-left-color: #CCC;
+
+}
+
+div.globalsearchform #button {}
+
+
+
+/* ============下拉選單============== */
+
+.dropdownmenu{
+
+   clear:both;
+
+   margin:0;
+
+   white-space:nowrap;
+
+   overflow:hidden;
+
+   width:100%;
+
+   height:21px;
+
+   color: #2D2D2D;
+
+   font-family: "微軟正黑體" !important;
+
+}
+
+
+
+.dorpmenu{
+
+	float: left;
+
+	color: #fff;
+
+	text-align: center;
+
+  font-family: "微軟正黑體" !important;
+
+}
+
+div.dorpmenu{
+
+	border-top-style: none;
+
+	border-right-style: solid;
+
+	border-bottom-style: none;
+
+	border-left-style: none;
+
+	border-right-color: #333;
+
+	border-right-width: 1px;
+
+	float: left;
+
+	}
+
+a.dorpmenu{
+
+	padding-right: 8px;
+
+	padding-left: 8px;
+
+}
+
+a.dorpmenu:link,a.dorpmenu:visited,a.dorpmenu:active {
+
+	color: #0B0B0B;
+
+	display: block;
+
+	text-decoration: none;
+
+	font-size: 14px;
+
+   font-family: "微軟正黑體" !important;
+
+	font-weight: bold;
+
+}
+
+
+
+a.dorpmenu:hover {
+
+	color: #F30;
+
+	text-decoration: none;
+
+  font-family: "微軟正黑體" !important;
+
+}
+
+
+
+div.subdorpmenu{
+
+  display:none;
+
+  position:absolute;
+
+  font-family: "微軟正黑體" !important;
+
+  border-right-width: thin;
+
+}
+
+
+
+div.subdorpmenu ul{
+
+	margin: 0;
+
+	padding: 0;
+
+  border-top:0px;
+
+  font-family: "微軟正黑體" !important;
+
+}
+
+
+
+div.subdorpmenu ul{
+
+  font-family: "微軟正黑體" !important;
+
+  margin-left:1px;
+
+}
+
+
+
+div.subdorpmenu li{
+
+	list-style-type: none;
+
+	text-align: center;
+
+	font-family: "微軟正黑體" !important;
+
+	background-color: #FF4343;
+
+	color: #FFF;
+
+	width:90px;
+
+	margin-bottom: 2px;
+
+}
+
+div.subdorpmenu li.current{
+
+	background-color: #FF4343;
+
+	color: #FFF;
+
+}
+
+
+
+div.subdorpmenu a,a.subdorpmenu:link,a.subdropmenu:visited,a.subdorpmenu:active{
+
+	display: block;
+
+	text-decoration: none;
+
+	font-family: "微軟正黑體" !important;
+
+	font-size: 14px;
+
+	color: #FFF;
+
+	padding-top: 5px;
+
+	padding-right: 8px;
+
+	padding-bottom: 5px;
+
+	padding-left: 8px;
+
+	font-weight: bold;
+
+}
+
+
+
+div.subdorpmenu a:hover {
+
+	display: block;
+
+	text-decoration: none;
+
+	font-family: "微軟正黑體" !important;
+
+	background-color: #FFF;
+
+	color: #FF4343 !important;
+
+	font-weight: bold;
+
+}
+
+
+
+/* ============topmenu============== */
+
+div#topmenu{
+
+margin: 0;
+
+padding:0;
+
+border: 0;
+
+height: 28px;
+
+line-height:28px;
+
+color:#555;
+
+text-align:center;
+
+}
+
+
+
+
+
+div#topmenu a:link,div#topmenu a:visited,div#topmenu a:active{
+
+margin:0 5px;
+
+color:#555;
+
+font:12px/28px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;
+
+text-decoration: none;
+
+}
+
+
+
+div#topmenu a:hover{
+
+margin:0 5px;
+
+color:#ff7300;
+
+font:12px/28px 'Microsoft YaHei','SimSun',Arial,Sans-Serif;
+
+text-decoration: none;
+
+}
+
+
+
+/*
+
+ * CSS Document
+
+ * $Author: Meggie $
+
+ * $Date: 2017-12-04 (一) $
+
+*/
+
+/* --------------------------------------------
+
+   全域樣式
+
+-------------------------------------------- */
+
+html,
+
+body {
+
+	min-height: 100%;
+
+}
+
+html {
+
+  font-size: 75%;
+
+}
+
+body {
+
+  font-family: '微軟正黑體', 'sans-serif', 'Arial', '微軟正黑體', 'Microsoft JhengHei';
+
+  font-size: 1.166666rem;
+
+  font-size: 14px;
+
+  color: #333;
+
+  -webkit-text-size-adjust: none;
+
+}
+
+a {
+
+  outline: none;
+
+  text-decoration: none;
+
+}
+
+button {
+
+	font-family: '微軟正黑體', 'sans-serif', 'Arial', '微軟正黑體', 'Microsoft JhengHei';
+
+}
+
+
+
+/* =====================================
+
+   共用樣式
+
+===================================== */
+
+.hidden-ele {
+
+  position: absolute;
+
+  top: -1px;
+
+  clip: rect(1px 1px 1px 1px); /* IE6 & 7 */
+
+  clip: rect(1px, 1px, 1px, 1px);
+
+  margin: 0;
+
+  height: 0;
+
+}
+
+
+
+/* 清除浮動 */
+
+.clearboth {
+
+  clear: both;
+
+  height: 0;
+
+  font-size: 0;
+
+  overflow: hidden;
+
+}
+
+
+
+.clearfix::after {
+
+  display: block;
+
+  clear: both;
+
+  content: "";
+
+}
+
+
+
+/* ul預設 */
+
+ul.ulset {
+
+  margin: 0;
+
+  padding: 0;
+
+  list-style: none;
+
+}
+
+
+
+/* =====================================
+
+   線上預約 - 共用架構
+
+===================================== */
+
+.g-wrap {
+
+  margin: 0 auto;
+
+  width: 990px;
+
+}
+
+#header {
+
+	position: relative;
+
+}
+
+.main-wrap {
+
+  position: relative;
+
+	padding-bottom: 60px;
+
+}
+
+.main-wrap .box {
+
+  position: relative;
+
+	margin: 15px 0;
+
+	padding: 40px 50px;
+
+	background-color: #fff;
+
+}
+
+
+
+/* footer */
+
+#footer {
+
+	position: absolute;
+
+  z-index: 5;
+
+  left: 0;
+
+  bottom: 0;
+
+  width: 100%;
+
+  height: 60px;
+
+	text-align: center;
+
+	line-height: 22px;
+
+}
+
+
+
+/* 當前路徑 */
+
+.page-current {
+
+	padding-top: 140px;
+
+	text-align: right;
+
+}
+
+.page-current a {
+
+	color: #505050;
+
+}
+
+.page-current a:hover {
+
+	color: #ff4343;
+
+}
+
+
+
+/* 選單 */
+
+.nav-item {
+
+  position: absolute;
+
+  left: 0;
+
+  top: -34px;
+
+}
+
+.nav-item li {
+
+	display: inline-block;
+
+}
+
+.nav-item li a {
+
+	display: block;
+
+	padding: 0 15px;
+
+	color: #fff;
+
+	text-decoration: none;
+
+	text-align: center;
+
+	line-height: 32px;
+
+	border-top: #ff4343 solid 2px;
+
+	background-color: #ff4343;
+
+}
+
+.nav-item li a:hover,
+
+.nav-item li.current a {
+
+	color: #333;
+
+	background-color: #fff;
+
+}
+
+
+
+/* 標題 */
+
+.large-ti {
+
+	font-size: 20px;
+
+	color: #121212;
+
+	text-align: center;
+
+}
+
+.ti-en {
+
+	position: relative;
+
+	margin-bottom: 40px;
+
+}
+
+.ti-en span {
+
+	display: block;
+
+	position: relative;
+
+	z-index: 1;
+
+	margin: 5px auto 0;
+
+	width: 110px;
+
+	font-size: 12px;
+
+	text-align: center;
+
+	background-color: #fff;
+
+}
+
+.ti-en:after {
+
+	display: block;
+
+	content: "";
+
+	position: absolute;
+
+	z-index: 0;
+
+	top: 50%;
+
+	width: 100%;
+
+	height: 1px;
+
+	background-color: #ddd;
+
+}
+
+
+
+/* 按鈕 */
+
+.btn-group {
+
+	display: block;
+
+	margin-top: 20px !important;
+
+	text-align: center;
+
+}
+
+.btn-group li {
+
+	display: inline-block;
+
+	margin: 0 3px;
+
+}
+
+
+
+.btn {
+
+	display: block;
+
+	padding: 3px 15px 5px;
+
+	min-width: 84px;
+
+	font-size: 13px;
+
+	color: #fff;
+
+	cursor: pointer;
+
+	outline: none;
+
+	border-radius: 0;
+
+  -webkit-box-sizing: border-box;
+
+     -moz-box-sizing: border-box;
+
+          box-sizing: border-box;
+
+}
+
+.btn:hover {
+
+	color: #fff;
+
+}
+
+.btn span {
+
+	padding-right: 5px;
+
+}
+
+
+
+.gray {
+
+	border: #121212 solid 1px;
+
+	background-color: #333;
+
+}
+
+/* .red {
+
+	border: #907003 solid 1px;
+
+	background-color: #a48417;
+
+} */
+
+.red {
+
+	border: #e41f1f solid 1px;
+
+	background-color: #ff4343;
+
+}
+
+
+
+/* =====================================
+
+   注意事項
+
+===================================== */
+
+.precautions .ti {
+
+	margin-bottom: 10px;
+
+	padding: 0 15px;
+
+	font-size: 16px;
+
+	color: #ff4343;
+
+	font-weight: bold;
+
+}
+
+.precautions .txt {
+
+	padding: 0 15px;
+
+}
+
+.precautions .txt ol {
+
+	margin: 0 0 0 20px;
+
+	padding: 0;
+
+}
+
+.precautions .txt ol li {
+
+	margin-bottom: 20px;
+
+	font-size: 15px;
+
+	line-height: 24px;
+
+}
+
+.precautions .txt ol li:last-child {
+
+	margin-bottom: 0;
+
+}
+
+.precautions .txt ol li div {
+
+	display: block;
+
+	margin-bottom: 3px;
+
+	font-weight: bold;
+
+}
+
+.precautions .txt ol li span {
+
+	color: #ff4343;
+
+}
+
+.precautions .txt p {
+
+	position: relative;
+
+	margin: 0;
+
+}
+
+.precautions .txt p:before {
+
+	display: inline-block;
+
+	content: "";
+
+	margin: -2px 5px 0 0;
+
+	width: 4px;
+
+	height: 4px;
+
+	vertical-align: middle;
+
+	border-radius: 50%;
+
+	background-color: #444;
+
+}
+
+.precautions .txt p.marking:before {
+
+	background-color: #ff4343;
+
+}
+
+
+
+.precautions .btn-group {
+
+	padding-top: 15px !important;
+
+	border-top: #ddd solid 1px;
+
+}
+
+
+
+/* =====================================
+
+   step
+
+===================================== */
+
+.step {
+
+	text-align: center;
+
+}
+
+.step li {
+
+  display: inline-block;
+
+  color: #888;
+
+  font-weight: bold;
+
+  vertical-align: middle;
+
+}
+
+.step li:after {
+
+	display: inline-block;
+
+	content: "";
+
+	margin: 0 10px 0 15px;
+
+  width: 0;
+
+  height: 0;
+
+  border-color: transparent transparent transparent #e6e6e6;
+
+  border-width: 5px;
+
+  border-style: solid;
+
+}
+
+.step li:last-child:after {
+
+	display: none;
+
+}
+
+.step li .icon {
+
+	display: inline-block;
+
+	margin-right: 8px;
+
+	padding-top: 13px;
+
+	width: 56px;
+
+	height: 56px;
+
+	font-size: 12px;
+
+	text-align: center;
+
+  vertical-align: middle;
+
+	border-radius: 50%;
+
+	border: #c5c5c5 solid 1px;
+
+  -webkit-box-sizing: border-box;
+
+     -moz-box-sizing: border-box;
+
+          box-sizing: border-box;
+
+}
+
+.step li .icon span {
+
+	display: block;
+
+	margin-bottom: 1px;
+
+	font-size: 13px;
+
+}
+
+.step li.current {
+
+	color: #222;
+
+}
+
+.step li.current .icon {
+
+	color: #fff;
+
+	border: #333 solid 1px;
+
+	background-color: #333;
+
+  /* background-color: #a48417; */
+
+}
+
+
+
+/* =====================================
+
+   預約
+
+===================================== */
+
+/* 共用 */
+
+.booking .con {
+
+	margin-top: 20px;
+
+	padding: 30px 20px;
+
+	background-color: #f7f7f7;
+
+}
+
+
+
+.booking .note {
+
+	margin: 20px 0 15px;
+
+}
+
+.booking .note span {
+
+	padding: 0 2px;
+
+	font-size: 16px;
+
+	color: #fa5e00;
+
+	font-weight: bold;
+
+}
+
+
+
+.form-group {
+
+  margin-top: 12px;
+
+}
+
+.form-group label {
+
+	padding-right: 7px;
+
+  float: left;
+
+  width: 100px;
+
+  text-align: right;
+
+	line-height: 30px;
+
+}
+
+.form-group strong {
+
+	padding-left: 3px;
+
+	font-size: 15px;
+
+  color: #fa5e00;
+
+}
+
+.form-group .input-txt {
+
+  overflow: hidden;
+
+}
+
+.form-group .input-style {
+
+	padding: 0 10px;
+
+	width: 35%;
+
+	height: 30px;
+
+	line-height: 30px;
+
+	outline: none;
+
+	border: #ccc solid 1px;
+
+	border-radius: 3px;
+
+	background-color: #fff;
+
+    -webkit-box-sizing: content-box;
+
+       -moz-box-sizing: content-box;
+
+            box-sizing: content-box;
+
+}
+
+.form-group .input-style:focus {
+
+	border-color: #666;
+
+}
+
+.form-group .input-txt span {
+
+	padding-left: 8px;
+
+	font-size: 13px;
+
+	color: #666;
+
+}
+
+.form-group .input-txt div {
+
+	padding-top: 3px;
+
+	font-size: 13px;
+
+	color: #ff0000;
+
+}
+
+
+
+.tbset {
+
+	border: none;
+
+	border-spacing: 0;
+
+	border-collapse: collapse;
+
+}
+
+
+
+.exhort {
+
+	color: #ff4343;
+
+}
+
+.exhort span {
+
+	padding-right: 3px;
+
+}
+
+.exhort ol {
+
+	margin: 0 0 0 17px;
+
+	padding: 0;
+
+	color: #333;
+
+}
+
+.exhort ol li {
+
+	margin-top: 5px;
+
+	line-height: 20px;
+
+}
+
+.exhort ol li a {
+
+	color: #ff4343;
+
+}
+
+
+
+/* step1 */
+
+.booking .calendar {
+
+	position: relative;
+
+	padding-bottom: 60px;
+
+	float: left;
+
+	width: 66%;
+
+}
+
+.booking .calendar .explain {
+
+  position: absolute;
+
+  left: 0;
+
+  color: #e10000;
+
+}
+
+.booking .calendar .explain:nth-child(1) {
+
+	bottom: 60px;
+
+}
+
+.booking .calendar .explain:nth-child(2) {
+
+	bottom: 40px;
+
+}
+.booking .calendar .explain:nth-child(3) {
+
+	bottom: 20px;
+
+}
+.booking .calendar .explain:nth-child(4) {
+
+	bottom: 0px;
+
+}
+
+
+
+.calendar div.zabuto_calendar .table tr.calendar-month-header td {
+
+  background-color: #fff;
+
+}
+
+.calendar div.zabuto_calendar .table tr.calendar-month-header td span {
+
+  padding-bottom: 0;
+
+}
+
+.calendar div.zabuto_calendar .table tr.calendar-month-header td {
+
+	padding: 12px 0;
+
+}
+
+.calendar div.zabuto_calendar div.calendar-month-navigation {
+
+	padding-top: 0;
+
+}
+
+.calendar div.zabuto_calendar .table tr.calendar-dow-header th {
+
+	padding: 8px 0;
+
+	background-color: #fff;
+
+}
+
+
+
+.table > tbody > tr > th {
+
+  border-bottom: #ddd solid 1px;
+
+}
+
+.calendar .table > tbody > tr > td {
+
+  border-top: none;
+
+}
+
+.calendar div.zabuto_calendar .table td {
+
+	padding: 1px;
+
+}
+
+
+
+.calendar div.zabuto_calendar .table tr td div.day {
+
+	padding: 10px 0;
+
+	color: #fff;
+
+  background-color: #4560b0;
+
+}
+
+.calendar div.zabuto_calendar .table tr td div.day:hover {
+
+  background-color: #ff4343;
+
+}
+
+.calendar div.zabuto_calendar .table tr td.event div.day,
+
+.calendar div.zabuto_calendar ul.legend li.event {
+
+  background-color: #ddd;
+
+}
+
+
+
+/* .calendar div.zabuto_calendar div.legend {
+
+  text-align: center;
+
+} */
+
+.calendar div.zabuto_calendar div.legend span {
+
+	font-size: 14px;
+
+	color: #121212;
+
+}
+
+.calendar ul.legend {
+
+	margin-top: 1px !important;
+
+  vertical-align: middle;
+
+}
+
+div.zabuto_calendar ul.legend li {
+
+	width: 13px;
+
+	height: 13px;
+
+}
+
+.calendar .closed {
+
+  cursor: context-menu;
+
+  color: #a7afc5!important;
+
+  text-decoration: line-through;
+
+  background-color: #1b284d!important;
+
+}
+
+.calendar .capped {
+
+  color: #fff!important;
+
+  cursor: context-menu;
+
+  text-decoration: line-through;
+
+  background-color: #cbcfd7!important;
+
+}
+.calendar .reserve {
+
+  color: #4560b0!important;
+
+  background-color: #4560b0!important;
+}
+.calendar .fulled {
+
+  color: #d33626!important;
+  text-decoration: line-through;
+  border: #d33626 solid 1px;
+  background-color: #fff!important;
+
+}
+.calendar .current {
+
+  background-color: #ff4343 !important;
+
+}
+
+.calendar div.zabuto_calendar .table tr td div.today {
+
+	padding: 0;
+
+                        text-decoration: none !important;
+
+}
+
+.calendar div.zabuto_calendar .badge-today {
+
+	display: block;
+
+	padding: 13px 0;
+
+	height: 100%;
+
+	color: #0072d2;
+
+                        border-radius: 0;
+
+	border: #0072d2 solid 1px;
+
+	background-color: #fff;
+
+}
+
+
+
+.booking .time {
+
+	padding-left: 40px;
+
+	overflow: hidden;
+
+}
+
+.booking .time .day {
+
+	margin-bottom: 10px;
+
+	font-size: 13px;
+
+	color: #666;
+
+}
+
+.booking .time .day strong {
+
+	display: block;
+
+	font-size: 16px;
+
+	color: #333;
+
+	letter-spacing: 1px;
+
+}
+
+.booking .time ul li {
+
+	margin-bottom: 1px;
+
+}
+
+.booking .time ul li i {
+
+	padding-right: 5px;
+
+}
+
+.booking .time ul li .select > span,
+
+.booking .time ul li > div {
+
+	display: inline-block;
+
+	vertical-align: middle;
+
+}
+
+.booking .time ul li .range {
+
+  display: inline-block;
+
+  width: 75%;
+
+}
+
+
+
+.booking .time ul li .remaining {
+
+	overflow: hidden;
+
+}
+
+.booking .time ul li .remaining span {
+
+	display: inline-block;
+
+	width: 20px;
+
+	text-align: right;
+
+}
+
+
+
+.booking label.item {
+
+	display: block;
+
+	position: relative;
+
+	margin-bottom: 0;
+
+	cursor: pointer;
+
+}
+
+.booking label.item .select {
+
+	display: block;
+
+	padding: 5px 10px;
+
+	color: #fff;
+
+	background-color: #4560b0;
+
+}
+
+.booking label.item input {
+
+  display: none;
+
+  position: absolute;
+
+  margin-top: 4px \9;
+
+  margin-left: -20px;
+
+  padding: 0;
+
+  line-height: normal;
+
+  opacity: 0;
+
+  box-sizing: border-box;
+
+}
+
+
+
+.booking .time ul li.full {
+
+	padding: 5px 10px;
+
+	color: #666;
+
+	background-color: #cbcfd7;
+
+}
+
+.booking .time ul li.full i {
+
+	color: #666;
+
+}
+
+.booking .time ul li .item:hover .select,
+
+.booking .time ul li .select.custom-radio {
+
+	background-color: #ff4343;
+
+}
+
+
+
+/* 搜尋 */
+
+.select-date div.globalsearchformzone div.globalsearchform .input {
+
+	height: 27px;
+
+}
+
+
+
+/* step2 */
+
+.booking .date {
+
+	padding-bottom: 10px;
+
+	color: #121212;
+
+	font-weight: bold;
+
+	border-bottom: #bbb dashed 1px;
+
+}
+
+.booking .date p {
+
+	display: inline-block;
+
+	margin: -2px 0 0 0;
+
+	color: #121212;
+
+	vertical-align: middle;
+
+}
+
+.booking .date span {
+
+	display: inline-block;
+
+	margin: -3px 3px 0;
+
+	padding: 1px 5px 2px;
+
+	font-size: 12px;
+
+	color: #fff;
+
+	text-align: center;
+
+	vertical-align: middle;
+
+	background-color: #ff4343;
+
+}
+
+
+
+.booking .form-group select.input-style {
+
+	margin-right: -3px;
+
+}
+
+
+
+.booking .form-group.code .input-style {
+
+	display: inline-block;
+
+	width: 21%;
+
+	vertical-align: middle;
+
+}
+
+.booking .form-group.code .code-img {
+
+	display: inline-block;
+
+	width: 100px;
+
+	height: auto;
+
+	cursor: pointer;
+
+	vertical-align: middle;
+
+}
+
+.statement.form-group {
+    padding-top: 8px;
+    border-top: #bbb dashed 1px;
+}
+.statement.form-group label {
+    margin: 0 auto;
+    padding-right: 0;
+    padding-left: 18px;
+    float: none;
+    width: 220px;
+    text-align: center;
+}
+.agree {
+	margin: 20px auto 0;
+	width: 310px;
+	text-align: center;
+}
+.agree label {
+	padding: 5px 0 0 18px;
+}
+label.check{
+    display: block;
+    position: relative;
+    vertical-align: top;
+}
+label.check> input {
+    display: none;
+}
+label.check a {
+    color: #ff4343;
+}
+label.check> input + span {
+    display: block;
+    position: absolute;
+    top: 6px;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    border: 1px solid #999;
+    border-radius: 100%;
+}
+label.check > input:checked + span {
+    border-color: #333b3c;
+    background: #333b3c;
+}
+label.check > input:checked + span:after {
+   display: block;
+    content: '';
+    position: absolute;
+    top: 1px;
+    left: 5px;
+    width: 5px;
+    height: 8px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+/* step3 */
+
+.booking .caption {
+
+	padding-bottom: 10px;
+
+	text-align: center;
+
+	line-height: 28px;
+
+	border-bottom: #bbb dashed 1px;
+
+}
+
+.booking .caption button {
+
+	cursor: pointer;
+
+}
+
+
+
+.booking .com-txt {
+
+	margin-top: 30px;
+
+	font-size: 16px;
+
+	font-weight: bold;
+
+	text-align: center;
+
+}
+
+
+
+.booking .booking-code {
+
+	margin-top: 30px;
+
+	font-size: 16px;
+
+	color: #ff4343;
+
+	font-weight: bold;
+
+	text-align: center;
+
+}
+
+
+
+.booking .info {
+
+	margin: 20px auto;
+
+	padding: 3px;
+
+	width: 640px;
+
+	background-color: #fff;
+
+}
+
+.booking .info table {
+
+	width: 100%;
+
+	font-weight: bold;
+
+	text-align: left;
+
+}
+
+.booking .info table th,
+
+.booking .info table td {
+
+	padding: 12px 0;
+
+	border: #ddd solid 1px;
+
+}
+
+.booking .info table th {
+
+	padding-right: 3px;
+
+  width: 95px;
+
+  text-align: right;
+
+}
+
+.booking .info table th.id {
+
+  width: 120px;
+
+}
+
+.booking .info table td {
+
+	padding-left: 10px;
+
+	padding-right: 10px;
+
+}
+
+.booking .info table td.num {
+
+	width: 50px;
+
+}
+
+.booking .info table .color-red {
+
+	color: #ff4343;
+
+}
+
+
+
+.booking .exhort {
+
+	margin: 0 auto;
+
+	width: 640px;
+
+}
+
+
+
+/* 預約查詢 */
+
+.inquire {
+
+  margin: 0 auto;
+
+  width: 460px;
+
+}
+
+.inquire .note {
+
+	padding-bottom: 10px;
+
+	text-align: center;
+
+}
+
+.inquire .form {
+
+	padding: 15px 20px 30px;
+
+	background-color: #f5f5f5;
+
+}
+
+.inquire .input-style {
+
+  width: 90%;
+
+}
+
+
+
+.inquire .search {
+
+	display: block;
+
+	margin: 15px auto 0;
+
+	padding: 5px 0;
+
+	width: 80px;
+
+}
+
+
+
+.list-tb {
+
+	width: 100%;
+
+}
+
+.list-tb thead th {
+
+	position: relative;
+
+	text-align: center;
+
+  line-height: 30px;
+
+  border-bottom: #666 solid 1px;
+
+  background: -webkit-gradient( linear, left top, left bottom, color-stop(5%, #f8f8f8), color-stop(100%, #e6e6e6) );
+
+  background: -moz-linear-gradient( center top, #f8f8f8 5%, #e6e6e6 100%);
+
+  background: -ms-linear-gradient( top, #f8f8f8 5%, #e6e6e6 100% );
+
+}
+
+.list-tb thead th:after {
+
+	position: absolute;
+
+	content: "/";
+
+  top: 2px;
+
+  right: 0;
+
+  color: #cecece;
+
+}
+
+.list-tb thead th:last-child:after {
+
+	display: none;
+
+}
+
+.list-tb .r5 {
+
+  width: 140px;
+
+}
+
+.list-tb tbody td {
+
+	padding: 10px 0;
+
+	font-size: 13px;
+
+	text-align: center;
+
+	border-bottom: #ddd solid 1px;
+
+}
+
+.list-tb .del {
+
+	display: block;
+
+	margin: 0 auto;
+
+	color: #ff4343;
+
+	font-weight: bold;
+
+	cursor: pointer;
+
+	outline: none;
+
+	border: none;
+
+	background-color: transparent;
+
+}
+
+.list-tb .del span {
+
+	display: inline-block;
+
+	margin: -2px 3px 0 0;
+
+	font-size: 18px;
+
+	vertical-align: middle;
+
+}
+
+.list-tb tbody tr:hover td {
+
+	background-color: #f9f9f9;
+
+}
+
+
+
+.inquire-list .exhort {
+
+	margin: 20px 0 0 5px;
+
+}
+
+/* input文字樣式 */
+
+::-webkit-input-placeholder { color: #999;} /* google, Safari */
+
+::-moz-placeholder { color: #999;} /* firefox 19+ */
+
+:-ms-input-placeholder { color: #999;}
+
+/*  個資聲明 */
+.header {
+  padding-top: 30px;
+  height: 80px;
+}
+h1.logo {
+  margin: 0 auto;
+  width: 268px;
+}
+h2 {
+  margin: 0 0 20px 0;
+  font-weight: normal;
+}
+.declare {
+  line-height: 24px;
+ }
+
